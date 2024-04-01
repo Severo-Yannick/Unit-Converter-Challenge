@@ -33,7 +33,6 @@ struct ContentView: View {
                     self.pickerTemperature(unit: $inputTemperatureUnit)
                         .pickerStyle(SegmentedPickerStyle())
                 }
-                
                 Section(header: Text(outTemperatureUnit.rawValue)) {
                     TextField("Enter your \(outTemperatureUnit.rawValue) temperature", text: Binding<String>(
                         get: { String(self.outputValue) },
@@ -42,12 +41,19 @@ struct ContentView: View {
                     .keyboardType(.decimalPad)
                     
                     self.pickerTemperature(unit: $outTemperatureUnit)
-                }
-                
-                Button(action: {
-                    self.convertTemperature()
-                }) {
-                    Text("Convert")
+                    
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            self.convertTemperature()
+                        }) {
+                            Text("Convert")
+                                .padding()
+                                .foregroundColor(.white)
+                                .background(Color.blue)
+                                .clipShape(Capsule())
+                        }
+                    }
                 }
             }
             .navigationTitle("Unit Converter")
