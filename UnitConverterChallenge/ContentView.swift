@@ -9,6 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
+    enum UnitTypes: String, CaseIterable {
+        case temperature = "temperature"
+        case length = "length"
+        case time = "time"
+        case volume = "volume"
+    }
+    @State private var selectedOption = UnitTypes.temperature
+    
     enum TemperatureUnit: String, CaseIterable {
         case celsius = "celsius"
         case fahrenheit = "fahrenheit"
@@ -23,6 +31,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
+                VStack {
+                    Picker("Select a unit category", selection: $selectedOption) {
+                        ForEach(UnitTypes.allCases, id: \.self) {
+                            unit in
+                            Text(unit.rawValue.capitalized).tag(unit)
+                        }
+                    }
+                }
                 Section(header: Text(inputTemperatureUnit.rawValue)) {
                     TextField("Enter your \(inputTemperatureUnit.rawValue) temperature", text: Binding<String>(
                         get: { String(self.inputValue) },
