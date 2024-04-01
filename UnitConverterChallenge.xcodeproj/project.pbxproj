@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2148C4CC2BBAFED8009D24CF /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */; };
 		21CFEBE22BB7109D0097CA1F /* UnitConverterChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFEBE12BB7109D0097CA1F /* UnitConverterChallengeApp.swift */; };
 		21CFEBE42BB7109D0097CA1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFEBE32BB7109D0097CA1F /* ContentView.swift */; };
 		21CFEBE62BB7109E0097CA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CFEBE52BB7109E0097CA1F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		21CFEBDE2BB7109D0097CA1F /* UnitConverterChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverterChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CFEBE12BB7109D0097CA1F /* UnitConverterChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterChallengeApp.swift; sourceTree = "<group>"; };
 		21CFEBE32BB7109D0097CA1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2148C4CA2BBAFE40009D24CF /* UnitConvertionsViews */ = {
+			isa = PBXGroup;
+			children = (
+				2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */,
+			);
+			path = UnitConvertionsViews;
+			sourceTree = "<group>";
+		};
 		21CFEBD52BB7109D0097CA1F = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		21CFEBE02BB7109D0097CA1F /* UnitConverterChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				2148C4CA2BBAFE40009D24CF /* UnitConvertionsViews */,
 				21CFEBE12BB7109D0097CA1F /* UnitConverterChallengeApp.swift */,
 				21CFEBE32BB7109D0097CA1F /* ContentView.swift */,
 				21CFEBE52BB7109E0097CA1F /* Assets.xcassets */,
@@ -141,6 +152,7 @@
 			files = (
 				21CFEBE42BB7109D0097CA1F /* ContentView.swift in Sources */,
 				21CFEBE22BB7109D0097CA1F /* UnitConverterChallengeApp.swift in Sources */,
+				2148C4CC2BBAFED8009D24CF /* TemperatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
