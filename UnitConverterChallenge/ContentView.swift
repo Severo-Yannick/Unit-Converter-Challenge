@@ -17,14 +17,6 @@ struct ContentView: View {
     }
     @State private var selectedOption = UnitTypes.temperature
     
-    enum LengthUnit: String, CaseIterable {
-        case meters = "meters"
-        case kilometers = "kilometers"
-        case feet = "feet"
-        case yards = "yards"
-        case miles = "miles"
-    }
-    
     var body: some View {
         NavigationView {
             Form {
@@ -41,7 +33,7 @@ struct ContentView: View {
                     TemperatureConversionView()
                 }
                 if (selectedOption == UnitTypes.length) {
-                    Text("length")
+                    LengthConversionView()
                 }
                 if (selectedOption == UnitTypes.time) {
                     Text("time")

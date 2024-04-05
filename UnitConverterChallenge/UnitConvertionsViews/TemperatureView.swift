@@ -45,12 +45,13 @@ struct TemperatureConversionView: View {
                     Button(action: {
                         self.convertTemperature()
                     }) {
-                        Text("Convert")
+                        Text("Convert Temperature")
                             .padding()
                             .foregroundColor(.white)
                             .background(Color.blue)
                             .clipShape(Capsule())
                     }
+                    .padding()
                 }
             }
         }
