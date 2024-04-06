@@ -24,7 +24,7 @@ struct LengthConversionView: View {
     var body: some View {
         VStack {
             Section {
-                TextField("Enter your \(inputLengthUnit.rawValue) temperature", text: Binding<String>(
+                TextField("Enter your \(inputLengthUnit.rawValue) length", text: Binding<String>(
                     get: { String(self.inputValue) },
                     set: { newValue in self.inputValue = Double(newValue) ?? self.inputValue }
                 ))
@@ -34,7 +34,7 @@ struct LengthConversionView: View {
             }
             
             Section {
-                TextField("Enter your \(outLengthUnit.rawValue) temperature", text: Binding<String>(
+                TextField("Enter your \(outLengthUnit.rawValue) length", text: Binding<String>(
                     get: { String(self.outputValue) },
                     set: { newValue in self.outputValue = Double(newValue) ?? self.outputValue }
                 ))

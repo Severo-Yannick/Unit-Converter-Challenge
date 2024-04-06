@@ -36,7 +36,7 @@ struct ContentView: View {
                     LengthConversionView()
                 }
                 if (selectedOption == UnitTypes.time) {
-                    Text("time")
+                    TimeConversionView()
                 }
                 if (selectedOption == UnitTypes.volume) {
                     Text("volmume")
