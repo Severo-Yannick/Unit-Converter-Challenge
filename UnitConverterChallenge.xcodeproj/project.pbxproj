@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21008E072BC045C20023E802 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21008E062BC045C20023E802 /* Time.swift */; };
+		21048DDA2BC15DB00041A03B /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21048DD92BC15DB00041A03B /* Volume.swift */; };
 		2148C4CC2BBAFED8009D24CF /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */; };
 		2148C4CE2BBB0E22009D24CF /* LengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148C4CD2BBB0E22009D24CF /* LengthView.swift */; };
 		21CFEBE22BB7109D0097CA1F /* UnitConverterChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFEBE12BB7109D0097CA1F /* UnitConverterChallengeApp.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		21008E062BC045C20023E802 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		21048DD92BC15DB00041A03B /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
 		2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		2148C4CD2BBB0E22009D24CF /* LengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthView.swift; sourceTree = "<group>"; };
 		21CFEBDE2BB7109D0097CA1F /* UnitConverterChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverterChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,7 @@
 				2148C4CB2BBAFED8009D24CF /* TemperatureView.swift */,
 				2148C4CD2BBB0E22009D24CF /* LengthView.swift */,
 				21008E062BC045C20023E802 /* Time.swift */,
+				21048DD92BC15DB00041A03B /* Volume.swift */,
 			);
 			path = UnitConvertionsViews;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				2148C4CE2BBB0E22009D24CF /* LengthView.swift in Sources */,
 				21CFEBE42BB7109D0097CA1F /* ContentView.swift in Sources */,
 				21008E072BC045C20023E802 /* Time.swift in Sources */,
+				21048DDA2BC15DB00041A03B /* Volume.swift in Sources */,
 				21CFEBE22BB7109D0097CA1F /* UnitConverterChallengeApp.swift in Sources */,
 				2148C4CC2BBAFED8009D24CF /* TemperatureView.swift in Sources */,
 			);
