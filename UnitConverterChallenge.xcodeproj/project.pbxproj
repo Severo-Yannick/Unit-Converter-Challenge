@@ -28,6 +28,7 @@
 		21CFEBE52BB7109E0097CA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21CFEBE82BB7109E0097CA1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21CFEBEF2BB9A68A0097CA1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21F090AE2BC1728F00DF21DF /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		21CFEBD52BB7109D0097CA1F = {
 			isa = PBXGroup;
 			children = (
+				21F090AE2BC1728F00DF21DF /* demo.mp4 */,
 				21CFEBEF2BB9A68A0097CA1F /* README.md */,
 				21CFEBE02BB7109D0097CA1F /* UnitConverterChallenge */,
 				21CFEBDF2BB7109D0097CA1F /* Products */,
